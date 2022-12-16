@@ -11,7 +11,10 @@ module.exports = {
           DEFAULT: "#00C2CB",
           light: "#60E7ED",
           dark: "#05484B"
-        } 
+        }, 
+      },
+      fontFamily: {
+        headling: "Poppins, sans-serif",
       }
     },
   },
