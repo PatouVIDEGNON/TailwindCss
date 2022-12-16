@@ -7,12 +7,18 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        brand: "#00C2CB",
-        "brand-light": "#4DCED4",
-        "brand-dark" : "#05484B",
-        
+        brand: {
+          DEFAULT: "#00C2CB",
+          light: "#60E7ED",
+          dark: "#05484B"
+        } 
       }
     },
+  },
+  variants: {
+    extend: {
+      backgroundColor: ["active"]
+    }
   },
   plugins: [],
 }

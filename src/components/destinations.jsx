@@ -12,7 +12,7 @@ return(
     $ {destination.averagePRice}/night average
    </p>
    <div className="mt-4">
-    <a href="" className=" text-indigo-500 hover:text-indigo-400 font-semibold text-sm">Explore {destination.propertyCount} properties</a>
+    <a href="" className=" text-brand hover:text-brand-light font-semibold text-sm">Explore {destination.propertyCount} properties</a>
    </div>
   </div>
 </div>

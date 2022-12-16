@@ -16,7 +16,7 @@ function App() {
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum officiis consequatur adipisci perspiciatis fugit enim voluptatibus atque quas exercitationem perferendis reprehenderit odit, mollitia recusandae eum culpa quis libero consequuntur tenetur.
                     </p>
                  <div className="mt-4 space-x-1" >
-                        <a className="  bg-brand hover:bg-brand-light  focus:ring-indigo-500 focus:ring-opacity-60 active:bg-brand-dark
+                        <a className="  bg-brand hover:bg-brand-light  focus:ring-green-900 focus:ring-opacity-60 active:bg-brand-dark
         text-white shadow-lg py-2 hover:-translate-y-0.5 transform transition focus:outline-none focus:ring focus:ring-offset-2
         px-2 rounded-md inline-block uppercase tracking-wider font-semibold text-sm" href="" >book your escape</a>
                         <a className="shadow-lg hover:-translate-y-0.5 transform transition focus:outline-none focus:ring focus:ring-offset-2
