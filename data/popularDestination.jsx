@@ -24,7 +24,7 @@ export default[
             
             },
             {
-                city: "Seatlle",
+                city: "Seatle",
                 averagePRice: 135,
                 propertyCount: 63,
                 imageUrl: "/src/assets/Seattle.jpg",

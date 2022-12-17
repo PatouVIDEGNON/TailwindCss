@@ -1,7 +1,7 @@
 import React from "react";
-import  ReactDOM from "react-dom";
 import popularDestination from "../data/popularDestination";
 import Destinations from "./components/destinations";
+
 
 function App() {
   return(
@@ -12,7 +12,7 @@ function App() {
                     <img src="/src/assets/1.png" alt="Logo-site" className="h-12"/>
                     <img className="mt-5 rounded-lg shadow-2xl sm:mt-8 h-64 sm:w-full sm:object-cover object-center lg:hidden" src="/src/assets/asian-female.jpg" alt="femme souriante"/>
                     <h1 className="mt-6 text-4xl font-headling font-semibold tracking-tight text-gray-900 sm:text-3xl lg:text-2xl ">You can work from anywhere.<p className="text-brand">Take advantage of it</p></h1>
-                    <p className="mt-2 text-gray-600 lg:text-2xl">
+                    <p className="mt-4 mb-8 text-gray-600 lg:text-xl">
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum officiis consequatur adipisci perspiciatis fugit enim voluptatibus atque quas exercitationem perferendis reprehenderit odit, mollitia recusandae eum culpa quis libero consequuntur tenetur.
                     </p>
                  <div className="mt-4 space-x-1" >
@@ -36,17 +36,10 @@ function App() {
   <div className="mt-6 grid gap-6 lg:grid-cols-2 xl:grid-cols-3">
 
  {popularDestination.map(destination => (
-  <Destinations destination={destination} key={destination.city}/>
- ))}
-
-
-
+  <Destinations destination={destination} key={destination.city}/>))}
   </div>
-
 </div>
-    </div>
-  )
-  
-}
+</div>
+)}
 
 export default App
