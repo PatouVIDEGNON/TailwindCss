@@ -5,39 +5,21 @@ import Destinations from "./components/destinations";
 
 function App() {
   return(
-    <div>
-      <div className="bg-gray-100 grid lg:grid-cols-2 2xl:grid-cols-5">
-            <div className="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:px-12 lg:py-12 lg:max-w-full">
-                <div>
-                    <img src="/src/assets/1.png" alt="Logo-site" className="h-12"/>
-                    <img className="mt-5 rounded-lg shadow-2xl sm:mt-8 h-64 sm:w-full sm:object-cover object-center lg:hidden" src="/src/assets/asian-female.jpg" alt="femme souriante"/>
-                    <h1 className="mt-6 text-4xl font-headling font-semibold tracking-tight text-gray-900 sm:text-3xl lg:text-2xl ">You can work from anywhere.<p className="text-brand">Take advantage of it</p></h1>
-                    <p className="mt-4 mb-8 text-gray-600 lg:text-xl">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum officiis consequatur adipisci perspiciatis fugit enim voluptatibus atque quas exercitationem perferendis reprehenderit odit, mollitia recusandae eum culpa quis libero consequuntur tenetur.
-                    </p>
-                 <div className="mt-4 space-x-1" >
-                        <a className="  bg-brand hover:bg-brand-light  focus:ring-green-900 focus:ring-opacity-60 active:bg-brand-dark
-        text-white shadow-lg py-2 hover:-translate-y-0.5 transform transition focus:outline-none focus:ring focus:ring-offset-2
-        px-2 rounded-md inline-block uppercase tracking-wider font-semibold text-sm" href="" >book your escape</a>
-                        <a className="shadow-lg hover:-translate-y-0.5 transform transition focus:outline-none focus:ring focus:ring-offset-2
-        px-2 rounded-md inline-block uppercase tracking-wider font-semibold text-sm  py-2 bg-gray-400 hover:bg-gray-300  focus:ring-gray-400 focus:ring-opacity-60 active:bg-gray-500
-        text-gray-800 " href="" >learn more</a>
-                    </div>
-                </div>
-            </div>
-            <div className="hidden lg:block relative">
-                <img className="absolute inset-0 w-full h-full object-cover object-center
-                " src="/src/assets/asian-female.jpg" alt="femme souriante"/>
-            </div>
-        </div>
-<div className="max-w-md md:max-w-xl lg:max-w-6xl mx-auto px-8 lg:px-12 py-8">
-  <h2 className="text-lg text-gray-900">Popular Destinations</h2>
-  <p className="mt-2 text-gray-600"> Lorem ipsum, dolor sit amet consequuntur</p>
-  <div className="mt-6 grid gap-6 lg:grid-cols-2 xl:grid-cols-3">
+<div className=" grid place-items-center min-h-screen"> 
 
- {popularDestination.map(destination => (
-  <Destinations destination={destination} key={destination.city}/>))}
-  </div>
+<div className="grid gap-4 p-4 max-w-5xl xs:grid-cols-2 md:grid-cols-4">
+<h1 className=" text-4xl font-extrabold  xs:col-span-2 xs:grid xs:grid-cols-2 xs:gap-4 md:col-span-3 md:text-5xl md:grid-cols-3 " ><span className=" bg-gray-400  md: col-span-1">Grid Layout By TailWindCss</span></h1>
+<p className="xs:row-start-2 xs:col-start-2 xs:self-center md:col-start-1 md:col-span-2 pr-12 text-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam sapiente nihil aperiam! Aut, nihil iste itaque beatae, eaque sapiente non officia fugit quasi, voluptate labore facere minima expedita rerum? Incidunt.</p>
+<div className="h-10 bg-blue-500 xs:h-auto xs:square"></div>
+<div className="h-10 bg-blue-500 xs:h-auto xs:square"></div>
+<div className="h-10 bg-pink-500 xs:h-auto xs:square"></div>
+<div className="h-10 bg-blue-500 xs:h-auto xs:square md:col-start-2"></div>
+<div className="h-10 bg-pink-500 xs:h-auto xs:square"></div>
+<div className="h-10 bg-blue-500 xs:h-auto xs:square"></div>
+<div className="h-10 bg-blue-500 xs:h-auto xs:square"></div>
+<div className="h-10 bg-pink-500 xs:h-auto xs:square"></div>
+<p className="self-center md:text-lg md:col-span-2 md:text-center md:px-4
+">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 </div>
 </div>
 )}
